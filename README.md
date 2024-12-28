@@ -1,100 +1,180 @@
-# Project Title
-A brief description of what this project does and who it's for.
+# Sorting & Searching Students
+A Programming Assignment in ADT & Solving Problem course that reads student data from a CSV file and provides functionality to sort and search student names.
 
 ---
 
 ## Description
-This project is designed to help [target audience] by [key functionality]. It includes features such as:
-- Feature 1
-- Feature 2
-- Feature 3
+This project allows users to sort student records by:
+- ID
+- First name
+- Last name
+- It also provides functionality to search for a student by their first name and retrieve the index where the name is located in the data.
 
----
+
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
+- [Usage and Output](#usage-and-output)
 - [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
----
 
 ## Installation
-1. Clone the repository:
+1. Save the source code in a file named `Sorting.java`.
+2. Prepare a `student.csv` file with student data. Ensure the data follows the correct format (e.g., `ID,First Name,Last Name`).
+3. Compile the Java program:
    ```bash
-   git clone https://github.com/username/repo-name.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd repo-name
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the project:
-   ```bash
-   npm start
+   javac Sorting.java
    ```
 
----
+## Usage and Output
+To use the program, follow these steps:
 
-## Usage
-To run the project, execute the following command:
+1. Run the program in your terminal.
+2. The program will display options for sorting and searching:
+   - `-n`: Sort by student ID.
+   - `-f`: Sort by first name.
+   - `-l`: Sort by last name.
+   - `-s`: Search for a student by first name.
 
+3. Enter the desired option (e.g., `-n` to sort by ID).
+4. For the search option (`-s`), enter the student's first name when prompted.
+
+Example interaction
 ```bash
-npm run serve
+Choose -n for sort by ID
+
+622115040 SUCHANUN SIRIJANYA
+662115007 CHONCHANUN KHACHONPHURITHANAKUL
+662115016 NATTHAPHUM CHAIKHAN
+662115039 MANAPAT KAEWLAI
+672115001 KATIKA KANTHASON
+672115002 KRITTAMETH TANSUWAN
+672115004 JITTIPAT KAEWIJIT
+672115005 CHETSADA KANKARN
+672115006 CHANLACHAT PANYOYAI
+672115007 CHANCHAKORN JULLAPECH
+672115008 CHANYA BUNRUEANG
+672115009 CHIDNUCHA POBKEEREE
+672115010 NATANON SOMBOON
+672115011 NATTHAPOOM SAENGKAEW
+672115012 NUT SUPAPORN
+672115013 NATTHAN CHAMPATHIP
+672115014 NATTIKORN SAE-SUE
+672115015 NATTAPON SUKKEAW
+672115016 NATTHAPAT JAGKHURUANG
+672115018 DALANPHOP KEAWSIRIPONG
+672115019 THINNAPOP SRISOMBOON
+672115020 TECHIT WONGKITI
+672115024 TAT PUTJORN
+672115028 NINA BURGER
+672115037 PHUTAWAN MUEANGMA
+672115039 METAVEE AEINJANG
+672115041 RAPHEEPHAT AEIPHINGCHAI
+672115042 RANTICHA CHUMJAI
+672115043 WASINPAT YANIN
+672115044 VIDCHAYADA ABHICHARTTIBUTRA
+672115045 VIRAWIT KONGTHONG
+672115046 SATTAPORN KOWARAKUN
+672115047 SAMAKOM MAKHIAO
+672115048 SUKRITPONG WONGPANYA
+672115049 ANAWAT JANDEE
 ```
+```bash
+Choose -f for sort by First name
 
-Example output:
+672115049 ANAWAT JANDEE
+672115007 CHANCHAKORN JULLAPECH
+672115006 CHANLACHAT PANYOYAI
+672115008 CHANYA BUNRUEANG
+672115005 CHETSADA KANKARN
+672115009 CHIDNUCHA POBKEEREE
+662115007 CHONCHANUN KHACHONPHURITHANAKUL
+672115018 DALANPHOP KEAWSIRIPONG
+672115004 JITTIPAT KAEWIJIT
+672115001 KATIKA KANTHASON
+672115002 KRITTAMETH TANSUWAN
+662115039 MANAPAT KAEWLAI
+672115039 METAVEE AEINJANG
+672115010 NATANON SOMBOON
+672115015 NATTAPON SUKKEAW
+672115013 NATTHAN CHAMPATHIP
+672115016 NATTHAPAT JAGKHURUANG
+662115016 NATTHAPHUM CHAIKHAN
+672115011 NATTHAPOOM SAENGKAEW
+672115014 NATTIKORN SAE-SUE
+672115028 NINA BURGER
+672115012 NUT SUPAPORN
+672115037 PHUTAWAN MUEANGMA
+672115042 RANTICHA CHUMJAI
+672115041 RAPHEEPHAT AEIPHINGCHAI
+672115047 SAMAKOM MAKHIAO
+672115046 SATTAPORN KOWARAKUN
+622115040 SUCHANUN SIRIJANYA
+672115048 SUKRITPONG WONGPANYA
+672115024 TAT PUTJORN
+672115020 TECHIT WONGKITI
+672115019 THINNAPOP SRISOMBOON
+672115044 VIDCHAYADA ABHICHARTTIBUTRA
+672115045 VIRAWIT KONGTHONG
+672115043 WASINPAT YANIN
+```
+```bash
+Choose -l for sort by Last name
 
-![Screenshot](https://via.placeholder.com/400x300)
+672115044 VIDCHAYADA ABHICHARTTIBUTRA
+672115039 METAVEE AEINJANG
+672115041 RAPHEEPHAT AEIPHINGCHAI
+672115008 CHANYA BUNRUEANG
+672115028 NINA BURGER
+662115016 NATTHAPHUM CHAIKHAN
+672115013 NATTHAN CHAMPATHIP
+672115042 RANTICHA CHUMJAI
+672115016 NATTHAPAT JAGKHURUANG
+672115049 ANAWAT JANDEE
+672115007 CHANCHAKORN JULLAPECH
+672115004 JITTIPAT KAEWIJIT
+662115039 MANAPAT KAEWLAI
+672115005 CHETSADA KANKARN
+672115001 KATIKA KANTHASON
+672115018 DALANPHOP KEAWSIRIPONG
+662115007 CHONCHANUN KHACHONPHURITHANAKUL
+672115045 VIRAWIT KONGTHONG
+672115046 SATTAPORN KOWARAKUN
+672115047 SAMAKOM MAKHIAO
+672115037 PHUTAWAN MUEANGMA
+672115006 CHANLACHAT PANYOYAI
+672115009 CHIDNUCHA POBKEEREE
+672115024 TAT PUTJORN
+672115014 NATTIKORN SAE-SUE
+672115011 NATTHAPOOM SAENGKAEW
+622115040 SUCHANUN SIRIJANYA
+672115010 NATANON SOMBOON
+672115019 THINNAPOP SRISOMBOON
+672115015 NATTAPON SUKKEAW
+672115012 NUT SUPAPORN
+672115002 KRITTAMETH TANSUWAN
+672115020 TECHIT WONGKITI
+672115048 SUKRITPONG WONGPANYA
+672115043 WASINPAT YANIN
+```
+```bash
+Choose -s for sort by Search Student
+Fill name for find index: ANAWAT
+
+Find at index: 34
+```
 
 ---
 
 ## Features
-- Feature 1: Detailed description.
-- Feature 2: Detailed description.
-- Feature 3: Detailed description.
+- **Sorting Options**: Allows sorting student data by:
+  - ID
+  - First Name
+  - Last Name
+- **Search Functionality**: Search for a student by their first name and retrieve the index of their record.
+- **CSV Integration**: Reads student data from a CSV file for easy integration and testing.
+- **User-Friendly Console Interaction**: Provides clear prompts and outputs for user actions.
+- **Customizable Sorting Logic**: Demonstrates bubble sort for sorting, which can be modified for different algorithms.
 
+
+# THANK YOU
 ---
-
-## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the project.
-2. Create your feature branch:
-   ```bash
-   git checkout -b feature/new-feature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add new feature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/new-feature
-   ```
-5. Open a pull request.
-
----
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-- [Tool/Resource Name](https://example.com) - Explanation.
-- Special thanks to [Name] for [Contribution].
-
----
-
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
-
-
-
-
-
