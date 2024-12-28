@@ -73,7 +73,7 @@ public class Sorting{
                 System.out.print("Enter name that want to search: ");
                 String name = input.nextLine().toUpperCase();
                 int index = find_index(vec, name);
-                if (index != -1){
+                if (index != -100){
                     System.out.println("Find at index: "+index);
                 }
                 else{
@@ -150,7 +150,7 @@ public class Sorting{
                 return i;
             }
         }
-        return -1;     
+        return -100;     
         
     }
 
