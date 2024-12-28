@@ -40,7 +40,10 @@ npm run serve
 
 ---
 
-### Features
+
+---
+
+### 6. **Features**
    - Highlight the key features of the project.
 
 ```markdown
