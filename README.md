@@ -1,6 +1,7 @@
 # Sorting & Searching Students
+- Author:  Anawat Jandee
+- Student ID:  672115049<br><br>
 A Programming Assignment in ADT & Solving Problem course that reads student data from a CSV file and provides functionality to sort and search student names.
-
 ---
 
 ## Description
