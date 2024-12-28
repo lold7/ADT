@@ -41,7 +41,7 @@ class Text{
 
 public class Sorting{
     public static void main(String arg[])throws FileNotFoundException{
-        Scanner file = new Scanner(new File("student.csv"));
+        Scanner file = new Scanner(new File("students.csv"));
         Scanner input = new Scanner(System.in); 
         Vector<Text> vec = new Vector<>();
         
