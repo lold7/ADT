@@ -20,7 +20,7 @@ This project allows users to sort student records by:
 
 ## Installation
 1. Save the source code in a file named `Sorting.java`.
-2. Prepare a `student.csv` file with student data. Ensure the data follows the correct format (e.g., `ID,First Name,Last Name`).
+2. Prepare a `students.csv` file with student data. Ensure the data follows the correct format (e.g., `ID,First Name,Last Name`).
 3. Compile the Java program:
    ```bash
    javac Sorting.java
