@@ -1,3 +1,10 @@
+/*
+ * Writer: Anawat Jandee
+ * Student number: 672115049
+ */
+
+
+
 import java.util.*;
 
 import java.io.*;
