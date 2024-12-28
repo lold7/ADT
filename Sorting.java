@@ -1,6 +1,6 @@
 /*
  * Auther: Anawat Jandee
- * Student number: 672115049
+ * Student ID: 672115049
  */
 
 
