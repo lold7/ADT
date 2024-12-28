@@ -1,5 +1,5 @@
 /*
- * Writer: Anawat Jandee
+ * Auther: Anawat Jandee
  * Student number: 672115049
  */
 
